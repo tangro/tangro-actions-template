@@ -2,6 +2,11 @@
 
 A GitHub Action template for tangro GitHub actions. It has the build step, the workflow and some dependencies pre-configured.
 
+# Using this template
+
+a) Either go to [the repository](https://github.com/tangro/tangro-actions-template) and click on [Use this template](https://github.com/tangro/tangro-actions-template/generate)
+b) Or go to [create new tangro repo](https://github.com/organizations/tangro/repositories/new) or [create new user repo](https://github.com/new) and then select the `tangro/tangro-action-template` from the _Repository templaet_ list.
+
 # Development
 
 Create a new repository and copy the contents of this template repository to the new repository. Do not forget the `.github` folder it may be hidden on your machine.
@@ -43,3 +48,7 @@ Just delete the `dist/` folder.
 ## Can I use a different branch than `master`
 
 Yes. Edit the `.github/workflows/release-action.yml`
+
+## The build failed
+
+Did you set the secrets?
