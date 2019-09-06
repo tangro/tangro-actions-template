@@ -19,7 +19,7 @@ async function run() {
 
     const context = JSON.parse(
       process.env.GITHUB_CONTEXT || ''
-    ) as GitHubContext;
+    ) as GitHubContext<{}>;
 
     const [owner, repo] = context.repository.split('/');
 
