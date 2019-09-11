@@ -11,13 +11,6 @@ b) Or go to [create new tangro repo](https://github.com/organizations/tangro/rep
 
 Create a new repository and copy the contents of this template repository to the new repository. Do not forget the `.github` folder it may be hidden on your machine.
 
-# Setting up to publish
-
-In your newley created action repository you have to set two secrets:
-
-- `RELEASE_USERNAME` - The name of the GitHub user that will automatically publish the action
-- `RELEASE_TOKEN` - A [personal access token](https://github.com/settings/tokens) for that user
-
 # Publishing an action
 
 > **Important** Do **not** run `npm build`. It will be done automatically. And do not check in the `dist` directory.
@@ -48,7 +41,3 @@ Just delete the `dist/` folder.
 ## Can I use a different branch than `master`
 
 Yes. Edit the `.github/workflows/release-action.yml`
-
-## The build failed
-
-Did you set the secrets?
