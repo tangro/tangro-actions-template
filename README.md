@@ -9,7 +9,7 @@ b) Or go to [create new tangro repo](https://github.com/organizations/tangro/rep
 
 # Development
 
-Create a new repository and copy the contents of this template repository to the new repository. Do not forget the `.github` folder it may be hidden on your machine.
+Create a new repository and copy the contents of this template repository to the new repository. Do not forget the `.github` folder. It may be hidden on your machine.
 
 # Publishing an action
 
