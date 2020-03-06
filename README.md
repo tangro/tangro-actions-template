@@ -5,7 +5,7 @@ A GitHub Action template for tangro GitHub actions. It has the build step, the w
 # Using this template
 
 a) Either go to [the repository](https://github.com/tangro/tangro-actions-template) and click on [Use this template](https://github.com/tangro/tangro-actions-template/generate)
-b) Or go to [create new tangro repo](https://github.com/organizations/tangro/repositories/new) or [create new user repo](https://github.com/new) and then select the `tangro/tangro-action-template` from the _Repository templaet_ list.
+b) Or go to [create new tangro repo](https://github.com/organizations/tangro/repositories/new) or [create new user repo](https://github.com/new) and then select the `tangro/tangro-action-template` from the _Repository template_ list.
 
 # Development
 
@@ -15,12 +15,14 @@ Create a new repository and copy the contents of this template repository to the
 
 > **Important** Do **not** run `npm build`. It will be done automatically. And do not check in the `dist` directory.
 
-There is a workflow already pre-configured that automatically publishs a new version when you push your code to the `master` branch. The workflow will take your npm package version and publish the action under that version. You have two options
+There is a workflow already pre-configured that automatically publishes a new version when you push your code to the `master` branch. The workflow will take your npm package version and publish the action under that version. You have two options
 
 - Keep the current version number and the action will be updated
 - Bump the version number and a new action will be created
 
-The action-release workflow will create a branch with the `package.json` version as its name. An already existing branch will be overwritten.
+The action-release workflow will create a branch with the `package.json` version as its name. An already existing branch will be overwritten. Also a branch `latest` will be created and the latest build last build will always be in latest.
+
+> **Keep in mind**: The last built version is published in `latest`. Meaning: If you have a version `1.2.0`, `latest` will be the same as `1.2.0`. But if you checkout `1.1.0` patch something and publish `1.1.0` latest will point to `1.1.0` and not to `1.2.0`.
 
 After the workflow/action has run your action will be available to be used.
 
