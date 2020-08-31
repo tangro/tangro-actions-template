@@ -21,7 +21,7 @@
     "@tangro/tangro-github-toolkit": "1.0.2"
   },
   "devDependencies": {
-    "@types/node": "14.0.24",
+    "@types/node": "14.6.2",
     "@zeit/ncc": "0.22.3",
     "typescript": "3.9.7"
   }
