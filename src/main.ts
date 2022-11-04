@@ -25,7 +25,7 @@ async function run() {
 
     core.debug('debug message');
   } catch (error) {
-    core.setFailed(error.message);
+    core.setFailed((error as any)?.message ?? 'ERROR happened');
   }
 }
 

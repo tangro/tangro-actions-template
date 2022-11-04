@@ -29,7 +29,7 @@ Steps the example job will perform:
 << Add the steps the action will perform, please remove / add steps >>
 
 1. Check out the latest code
-2. Use node v12
+2. Use node v14
 3. Run `npm install`
 4. (this action) << add a description >>
 
