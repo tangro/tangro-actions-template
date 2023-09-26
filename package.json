@@ -25,10 +25,10 @@
     "@tangro/tangro-github-toolkit": "1.0.9"
   },
   "devDependencies": {
-    "@types/node": "20.6.2",
+    "@types/node": "20.7.0",
     "@zeit/ncc": "0.22.3",
     "ejs": "3.1.9",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.4",
     "typescript": "5.2.2"
   }
 }
