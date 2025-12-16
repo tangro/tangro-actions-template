@@ -21,11 +21,11 @@
   "author": "ankri",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.11.1",
+    "@actions/core": "2.0.1",
     "@tangro/tangro-github-toolkit": "1.0.10"
   },
   "devDependencies": {
-    "@types/node": "24.10.2",
+    "@types/node": "25.0.2",
     "@zeit/ncc": "0.22.3",
     "ejs": "3.1.10",
     "rimraf": "6.1.2",
